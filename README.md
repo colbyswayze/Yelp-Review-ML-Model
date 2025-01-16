@@ -110,8 +110,12 @@ Phone: (949) 424-4694
 </table>
 
 **3. Sentiment Heat Map:**
+
+
 ![SentimentHeatMap](https://github.com/user-attachments/assets/190e6b29-b9f9-40d2-9386-1bcd9e139df3)
 **4. Sentiment Bar Distrubution**
+
+
 ![SentimentBarDistrubution](https://github.com/user-attachments/assets/7367a292-03dc-4e14-be9a-623676903c7c)
 
 
