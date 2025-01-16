@@ -1,7 +1,7 @@
 Yelp-Review-ML-Model
 
 - Description
-  - Howdy! This is a personal project using a machine learning regression model to analyze a Yelp data set including customer reviews.
+  - Howdy! This is a personal project using a machine learning logistic regression model to analyze a Yelp data set including customer reviews.
     The model is used to and categorize, count, and visualize the distributions into three sets: positive, neutral, and negative. 
     The purpose of this project is to display conceptual understanding using basic machine learning tool application.
 
