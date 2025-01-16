@@ -24,7 +24,9 @@ Phone: (949) 424-4694
   - Change code to preffered chunk size on line 19.
     def load_data_in_chunks(source, chunksize=100000, max_chunks=1):
   - Run the file.
-  - Example graphed visualizatoins of data and output using a chunksize of 100,000 from the file.
+
+
+ **Example Outputs Using 100,000 Chunk Size:**
   
 
 **1. Sentiment Counts:**
@@ -107,8 +109,9 @@ Phone: (949) 424-4694
   </tfoot>
 </table>
 
-    
+**3. Sentiment Heat Map:**
 ![SentimentHeatMap](https://github.com/user-attachments/assets/190e6b29-b9f9-40d2-9386-1bcd9e139df3)
+**4. Sentiment Bar Distrubution**
 ![SentimentBarDistrubution](https://github.com/user-attachments/assets/7367a292-03dc-4e14-be9a-623676903c7c)
 
 
