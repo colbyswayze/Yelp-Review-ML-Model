@@ -8,6 +8,7 @@ Yelp-Review-ML-Model
 - Installation Instructions
   - Dowload YelpMLProject.py from this repository.
   - Open file in an IDE ex: Spyder, VS Code, etc..
+  - Install libraries for pandas matplotlib, seaborn, and scikit-learn
   - Visit https://www.yelp.com/dataset/download and dowload the .json file.
   
 - How to Use
@@ -19,23 +20,88 @@ Yelp-Review-ML-Model
     def load_data_in_chunks(source, chunksize=100000, max_chunks=1):
   - Run the file.
   - Example graphed visualizatoins of data and output using a chunksize of 100,000 from the file.
-    
     Sentiment Counts:
-    sentiment
-    Positive    69729
-    Negative    18909
-    Neutral     11362
- 
-    Evaluation complete. Classification Report:
-              precision    recall  f1-score   support
 
-    Negative      0.81      0.81      0.81      3762
-    Neutral       0.54      0.30      0.38      2275
-    Positive      0.90      0.96      0.93     13963
+1. Sentiment Counts:
+ <table>
+  <thead>
+    <tr>
+      <th>Sentiment</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Positive</td>
+      <td>69,729</td>
+    </tr>
+    <tr>
+      <td>Negative</td>
+      <td>18,909</td>
+    </tr>
+    <tr>
+      <td>Neutral</td>
+      <td>11,362</td>
+    </tr>
+  </tbody>
+</table>
 
-    accuracy                           0.86     20000
-    macro avg      0.75      0.69      0.71     20000
-    weighted avg   0.84      0.86      0.85     20000
+2. Classification Report:
+<table>
+  <thead>
+    <tr>
+      <th>Sentiment</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+      <th>Support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Negative</td>
+      <td>0.81</td>
+      <td>0.81</td>
+      <td>0.81</td>
+      <td>3,762</td>
+    </tr>
+    <tr>
+      <td>Neutral</td>
+      <td>0.54</td>
+      <td>0.30</td>
+      <td>0.38</td>
+      <td>2,275</td>
+    </tr>
+    <tr>
+      <td>Positive</td>
+      <td>0.90</td>
+      <td>0.96</td>
+      <td>0.93</td>
+      <td>13,963</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td><strong>Accuracy</strong></td>
+      <td colspan="4">0.86 (20,000 samples)</td>
+    </tr>
+    <tr>
+      <td><strong>Macro Avg</strong></td>
+      <td>0.75</td>
+      <td>0.69</td>
+      <td>0.71</td>
+      <td>20,000</td>
+    </tr>
+    <tr>
+      <td><strong>Weighted Avg</strong></td>
+      <td>0.84</td>
+      <td>0.86</td>
+      <td>0.85</td>
+      <td>20,000</td>
+    </tr>
+  </tfoot>
+</table>
+
     
     ![SentimentHeatMap](https://github.com/user-attachments/assets/6019011a-728b-40fb-8c20-85e4b7696026)
     ![SentimentBarDistrubution](https://github.com/user-attachments/assets/574de184-8a9a-4559-8093-1028b7c006fa)
