@@ -1,5 +1,11 @@
 Yelp-Review-ML-Model
 
+**Contact Information:**
+
+Colby Swayze  
+Email: [colbyswayze@tamu.edu]  
+Phone: (949) 424-4694
+
 - Description
   - Howdy! This is a personal project using a machine learning logistic regression model to analyze a Yelp data set including customer reviews.
     The model is used to categorize, count, and visualize the distributions into three sets: positive, neutral, and negative. The model also provides F1 scores, averages, and accuracy. 
@@ -105,11 +111,5 @@ Yelp-Review-ML-Model
 ![SentimentHeatMap](https://github.com/user-attachments/assets/190e6b29-b9f9-40d2-9386-1bcd9e139df3)
 ![SentimentBarDistrubution](https://github.com/user-attachments/assets/7367a292-03dc-4e14-be9a-623676903c7c)
 
-
-**Contact Information:**
-
-Colby Swayze  
-Email: [colbyswayze@tamu.edu]  
-Phone: (949) 424-4694
 
     
