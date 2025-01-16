@@ -103,8 +103,8 @@ Yelp-Review-ML-Model
 </table>
 
     
-    ![SentimentHeatMap](https://github.com/user-attachments/assets/6019011a-728b-40fb-8c20-85e4b7696026)
-    ![SentimentBarDistrubution](https://github.com/user-attachments/assets/574de184-8a9a-4559-8093-1028b7c006fa)
+ ![Sentiment Heat Map](images/SentimentHeatMap.png)
+![Sentiment Bar Distribution](images/SentimentBarDistribution.png)
 
 **Contact Information:**
 
