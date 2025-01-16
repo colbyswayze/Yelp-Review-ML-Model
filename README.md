@@ -1,4 +1,4 @@
-Yelp-Review-ML-Model
+**Yelp-Review-ML-Model**
 
 **Contact Information:**
 
@@ -6,18 +6,18 @@ Colby Swayze
 Email: [colbyswayze@tamu.edu]  
 Phone: (949) 424-4694
 
-- Description
+- **Description**
   - Howdy! This is a personal project using a machine learning logistic regression model to analyze a Yelp data set including customer reviews.
     The model is used to categorize, count, and visualize the distributions into three sets: positive, neutral, and negative. The model also provides F1 scores, averages, and accuracy. 
     The purpose of this project is to display conceptual understanding using basic machine learning tool application.
 
-- Installation Instructions
+- **Installation Instructions**
   - Dowload YelpMLProject.py from this repository.
   - Open file in an IDE ex: Spyder, VS Code, etc..
   - Install libraries for pandas matplotlib, seaborn, and scikit-learn
   - Visit https://www.yelp.com/dataset/download and dowload the .json file.
   
-- How to Use
+- **How to Use**
   - ensure the file path to the yelp_dataset/yelp_academic_dataset_review.json can be located by your IDE on line 147.
      dataset_source = "C:/Users/admin/Downloads/yelp_dataset/yelp_academic_dataset_review.json"
   - Confirm the file path in the code matches with your device.
@@ -27,7 +27,7 @@ Phone: (949) 424-4694
   - Example graphed visualizatoins of data and output using a chunksize of 100,000 from the file.
   
 
-1. Sentiment Counts:
+**1. Sentiment Counts:**
  <table>
   <thead>
     <tr>
@@ -51,7 +51,7 @@ Phone: (949) 424-4694
   </tbody>
 </table>
 
-2. Classification Report:
+**2. Classification Report:**
 <table>
   <thead>
     <tr>
