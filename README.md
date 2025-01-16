@@ -12,7 +12,6 @@ Yelp-Review-ML-Model
   - Visit https://www.yelp.com/dataset/download and dowload the .json file.
   
 - How to Use
-  - Open file in an IDE ex: Spyder, VS Code, etc..
   - ensure the file path to the yelp_dataset/yelp_academic_dataset_review.json can be located by your IDE on line 147.
      dataset_source = "C:/Users/admin/Downloads/yelp_dataset/yelp_academic_dataset_review.json"
   - Confirm the file path in the code matches with your device.
@@ -20,7 +19,7 @@ Yelp-Review-ML-Model
     def load_data_in_chunks(source, chunksize=100000, max_chunks=1):
   - Run the file.
   - Example graphed visualizatoins of data and output using a chunksize of 100,000 from the file.
-    Sentiment Counts:
+  
 
 1. Sentiment Counts:
  <table>
