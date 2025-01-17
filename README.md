@@ -14,7 +14,7 @@ Phone: (949) 424-4694
 - **Installation Instructions**
   - Dowload YelpMLProject.py from this repository.
   - Open file in an IDE ex: Spyder, VS Code, etc..
-  - Install libraries for pandas matplotlib, seaborn, and scikit-learn
+  - Install libraries for pandas, matplotlib, seaborn, and scikit-learn.
   - Visit https://www.yelp.com/dataset/download and dowload the .json file.
   
 - **How to Use**
