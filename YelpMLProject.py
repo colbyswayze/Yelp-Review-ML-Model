@@ -16,7 +16,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import os
 
 # Step 1: Load Dataset in Chunks
-def load_data_in_chunks(source, chunksize=100000, max_chunks=1): # I am only usinh aproximately 0.1G of data for the model to keep processing under 10 minutes.
+def load_data_in_chunks(source, chunksize=100000, max_chunks=1): # I am only using approximately 0.1G of data for the model to keep processing under 5 minutes.
     """Load dataset from a file path in chunks."""
     print("Loading dataset in chunks...")
     chunks = []
