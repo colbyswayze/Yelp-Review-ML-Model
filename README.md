@@ -4,7 +4,7 @@
 
 Colby Swayze  
 Email: [colbyswayze@tamu.edu]  
-Phone: (949) 424-4694
+Phone: (949)-423-4694
 
 - **Description**
   - Howdy! This is a personal project using a machine learning logistic regression model to analyze a Yelp data set including customer reviews.
